@@ -1,6 +1,15 @@
 /** @format */
+@import "css/config/reset.css";
 
-img {
-  width: 40px;
-  height: 40px;
-}
+@import "css/partials/status-bar.css";
+@import "css/partials/tab-bar.css";
+@import "css/partials/friend.css";
+@import "css/partials/unread-badge.css";
+
+@import "css/pages/friends.css";
+@import "css/pages/chats.css";
+@import "css/pages/find.css";
+@import "css/pages/more.css";
+@import "css/pages/settings.css";
+
+@import "css/config/global.css";

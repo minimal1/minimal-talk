@@ -9,7 +9,7 @@ Clone Kakao-Talk with HTML and CSS
 ## Partials
 
 - [x] status-bar & header
-- [x] nav-bar
+- [x] tab-bar
 - [x] friend
 
 ## Pages
@@ -25,15 +25,26 @@ Clone Kakao-Talk with HTML and CSS
 
 ## Partials
 
-- [ ] status-bar & header
-- [ ] nav-bar
-- [ ] friend
+- [x] status-bar & header
+- [x] tab-bar
+- [x] friend
 
 ## Pages
 
-- [ ] chats(index)
+- [x] chats(index)
 - [ ] chat
-- [ ] friends
-- [ ] find
-- [ ] settings
-- [ ] more
+- [x] friends
+- [x] find
+- [x] settings
+- [x] more
+
+# Animation
+
+## Partials
+
+- [x] status-bar & header
+- [x] tab-bar
+
+## Pages
+
+- [ ] chat

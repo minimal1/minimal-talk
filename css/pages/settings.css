@@ -1,0 +1,35 @@
+/** @format */
+
+.settings {
+  border-top: 1px solid #f8f8f8;
+}
+
+.settings .settings__section {
+  padding-bottom: 12.5px;
+  margin-bottom: 12.5px;
+  border-bottom: 1px solid #f8f8f8;
+}
+.settings .settings__section:last-child {
+  border-bottom: none;
+  margin-bottom: 0px;
+}
+
+.settings__setting-list .settings__setting {
+  padding: 12.5px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.setting .setting__column {
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+}
+.setting .setting__title {
+  margin-left: 20px;
+  font-weight: 300;
+}
+.setting .setting__info {
+  color: rgba(0, 0, 0, 0.5);
+}

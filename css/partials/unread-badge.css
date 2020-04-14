@@ -1,0 +1,23 @@
+/** @format */
+
+.unread-badge {
+  background-color: #e65e3e;
+  border-radius: 10px;
+  width: 18px;
+  height: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  color: white;
+}
+
+.tab-bar__tab .unread-badge {
+  position: absolute;
+  top: -7px;
+  right: -7px;
+}
+
+.friend .unread-badge {
+  margin-top: 5px;
+}
