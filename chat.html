@@ -40,7 +40,41 @@
       </header>
     </div>
     <main class="chat">
-      chat
+      <h5 class="chat__latesttime">Yesterday</h5>
+      <ul class="chat__messages">
+        <li class="chat__incoming message">
+          <img src="img/maximum.png" alt="" class="message__avatar" />
+          <div class="message__content">
+            <span class="message__author">Maximum</span>
+            <span class="message__text">You can't be me</span>
+          </div>
+          <span class="message__timestamp">10:01</span>
+        </li>
+        <li class="chat__outgoing message">
+          <span class="message__timestamp">10:01</span>
+          <div class="message__content">
+            <span class="message__text">You can't be me</span>
+          </div>
+        </li>
+        <li class="chat__incoming message">
+          <img src="img/maximum.png" alt="" class="message__avatar" />
+          <div class="message__content">
+            <span class="message__author">Maximum</span>
+            <span class="message__text">You can't be me</span>
+          </div>
+          <span class="message__timestamp">10:01</span>
+        </li>
+      </ul>
     </main>
+    <div class="write">
+      <input type="text" class="write__input" />
+      <div class="write__left-icon">
+        <i class="far fa-plus-square"></i>
+      </div>
+      <div class="write__right-icon">
+        <i class="far fa-smile"></i>
+        <i class="fas fa-microphone"></i>
+      </div>
+    </div>
   </body>
 </html>

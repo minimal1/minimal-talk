@@ -15,11 +15,11 @@ Clone Kakao-Talk with HTML and CSS
 ## Pages
 
 - [x] chats(index)
-- [ ] chat
+- [x] chat
 - [x] friends
-- [ ] find
-- [ ] settings
-- [ ] more
+- [x] find
+- [x] settings
+- [x] more
 
 # CSS
 
