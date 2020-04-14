@@ -5,11 +5,13 @@
 @import "css/partials/tab-bar.css";
 @import "css/partials/friend.css";
 @import "css/partials/unread-badge.css";
+@import "css/partials/mobile.css";
 
 @import "css/pages/friends.css";
 @import "css/pages/chats.css";
 @import "css/pages/find.css";
 @import "css/pages/more.css";
 @import "css/pages/settings.css";
+@import "css/pages/chat.css";
 
 @import "css/config/global.css";

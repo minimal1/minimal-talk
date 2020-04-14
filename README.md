@@ -32,7 +32,7 @@ Clone Kakao-Talk with HTML and CSS
 ## Pages
 
 - [x] chats(index)
-- [ ] chat
+- [x] chat
 - [x] friends
 - [x] find
 - [x] settings
@@ -47,4 +47,4 @@ Clone Kakao-Talk with HTML and CSS
 
 ## Pages
 
-- [ ] chat
+- [x] chat

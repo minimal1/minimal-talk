@@ -12,7 +12,7 @@
       crossorigin="anonymous"
     ></script>
   </head>
-  <body>
+  <body class="chat-body">
     <div class="header-wrapper">
       <div class="status-bar">
         <span class="status-bar__timestamp">10:02</span>
@@ -42,41 +42,51 @@
       </header>
     </div>
     <main class="chat">
-      <h5 class="chat__latesttime">Yesterday</h5>
       <ul class="chat__messages">
+        <span class="chat__latesttime">Yesterday</span>
         <li class="chat__incoming message">
           <img src="img/maximum.png" alt="" class="message__avatar" />
           <div class="message__content">
+            <span class="message__text">Hey!</span>
             <span class="message__author">Maximum</span>
-            <span class="message__text">You can't be me</span>
           </div>
           <span class="message__timestamp">10:01</span>
         </li>
         <li class="chat__outgoing message">
           <span class="message__timestamp">10:01</span>
           <div class="message__content">
-            <span class="message__text">You can't be me</span>
+            <span class="message__text">Sup!</span>
           </div>
         </li>
         <li class="chat__incoming message">
           <img src="img/maximum.png" alt="" class="message__avatar" />
           <div class="message__content">
-            <span class="message__author">Maximum</span>
             <span class="message__text">You can't be me</span>
+            <span class="message__author">Maximum</span>
           </div>
           <span class="message__timestamp">10:01</span>
+        </li>
+        <li class="chat__outgoing message">
+          <span class="message__timestamp">10:01</span>
+          <div class="message__content">
+            <span class="message__text">I don't care</span>
+          </div>
         </li>
       </ul>
     </main>
     <div class="write">
-      <input type="text" class="write__input" />
-      <div class="write__left-icon">
+      <input type="text" class="write__input" placeholder="Send any message" />
+      <div class="write__left-icon icon-box">
         <i class="far fa-plus-square"></i>
       </div>
-      <div class="write__right-icon">
+      <div class="write__right-icon icon-box">
         <i class="far fa-smile"></i>
         <i class="fas fa-microphone"></i>
       </div>
+    </div>
+
+    <div class="bigScreen">
+      Please make your screen small!!😔
     </div>
   </body>
 </html>
